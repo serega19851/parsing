@@ -63,7 +63,7 @@ def parse_book_page(soup, book_url, url, title, author):
     return book_page
 
 
-def create_parser():
+def gets_two_numbers():
     parser = argparse.ArgumentParser('accepts optional two numbers')
     parser.add_argument(
         "--start_id", type=int, help="enter the number", default=1
@@ -76,7 +76,7 @@ def create_parser():
 
 
 def main():
-    start_id, end_id = create_parser()
+    start_id, end_id = gets_two_numbers()
     for number in range(start_id, end_id + 1):
         try:
             params = {'id': number}
