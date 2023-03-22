@@ -52,7 +52,8 @@ def gets_book_genres(soup):
     return genres
 
 
-def parse_book_page(soup, book_url, url, title, author):
+def parse_book_page(soup, book_url, url):
+    title, author = gets_title(soup)
     book_page = {
         'title': title,
         'author': author,
@@ -94,17 +95,13 @@ def main():
             soup = BeautifulSoup(book_response.text, 'lxml')
 
             check_for_redirect(response)
-            title, author = gets_title(soup)
             book_page = parse_book_page(
                 soup,
                 book_url,
                 response.url,
-                title,
-                author
             )
             download_images(book_page['cover_book'])
-            download_txt(response, title)
-
+            download_txt(response, book_page['title'])
         except HTTPError as inf:
             print("Unable to download file ", response.url, str(inf))
         except requests.exceptions.ConnectionError as errc:
