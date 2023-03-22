@@ -1,3 +1,4 @@
+from datetime import time
 import requests
 from pathlib import Path
 from pathvalidate import sanitize_filename
@@ -108,6 +109,7 @@ def main():
             print("Unable to download file ", response.url, str(inf))
         except requests.exceptions.ConnectionError as errc:
             print("Error Connecting:", errc)
+            time.sleep(5)
 
 
 if __name__ == '__main__':
