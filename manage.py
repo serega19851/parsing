@@ -8,8 +8,8 @@ from urllib.parse import urljoin
 import argparse
 
 
-def check_for_redirect(response, book_response):
-    if response.is_redirect or book_response.is_redirect:
+def check_for_redirect(response):
+    if response.is_redirect:
         raise HTTPError("Redirect detected. Download canceled")
 
 
@@ -94,7 +94,8 @@ def main():
             book_response.raise_for_status()
             soup = BeautifulSoup(book_response.text, 'lxml')
 
-            check_for_redirect(response, book_response)
+            check_for_redirect(response)
+            check_for_redirect(book_response)
             book_page = parse_book_page(
                 soup,
                 book_url,
