@@ -18,11 +18,11 @@ def gets_title(soup):
     return title.strip(), author.strip()
 
 
-def download_txt(response, filename, folder='books/'):
+def download_txt(response_content, filename, folder='books/'):
     Path(folder).mkdir(parents=True, exist_ok=True)
     path = f'{folder}{sanitize_filename(filename)}.txt'
     with open(path, 'wb') as file:
-        file.write(response.content)
+        file.write(response_content)
     return path
 
 
@@ -102,7 +102,7 @@ def main():
                 response.url,
             )
             download_images(book_page['cover_book'])
-            download_txt(response, book_page['title'])
+            download_txt(response.content, book_page['title'])
         except HTTPError as inf:
             print("Unable to download file ", response.url, str(inf))
         except requests.exceptions.ConnectionError as errc:
