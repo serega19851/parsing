@@ -1,3 +1,4 @@
+import argparse
 from datetime import time
 from urllib.parse import urljoin, urlparse
 import requests
@@ -7,15 +8,40 @@ from requests import HTTPError
 from manage import (check_for_redirect,
                     parse_book_page,
                     download_txt,
-                    download_images
+                    download_images,
                     )
 
 
+def get_last_number_pages():
+    url = "https://tululu.org/l55/"
+    url_response = requests.get(url)
+    url_response.raise_for_status()
+    url_soup = BeautifulSoup(url_response.text, 'lxml')
+    last_number_page = url_soup.select('.npage')[-1].text
+    return last_number_page
+
+
+def gets_number_page_args():
+    parser = argparse.ArgumentParser('accepts optional two numbers')
+    parser.add_argument(
+        "--start_page", type=int, help="enter the number", default=1
+    )
+    parser.add_argument(
+        "--end_page",
+        type=int,
+        help="enter the number",
+        default=get_last_number_pages()
+    )
+    args = parser.parse_args()
+    return args.start_page, args.end_page
+
+
 def main():
-    for i in range(1, 1+1):
+    start_page, end_page = gets_number_page_args()
+    for number in range(start_page, end_page + 1):
         try:
             response = requests.get(
-                f"https://tululu.org/l55/{i}",
+                f"https://tululu.org/l55/{number}",
                 allow_redirects=False
             )
             response.raise_for_status()
@@ -31,7 +57,6 @@ def main():
                 check_for_redirect(book_response)
                 book_soup = BeautifulSoup(book_response.text, 'lxml')
                 page_tags = book_soup.select('.d_book a ')
-                print(page_tags)
                 link = [
                     tag['href'] for tag in page_tags if 'txt' in tag['href']
                 ]
