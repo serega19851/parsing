@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 from requests import HTTPError
 from urllib.parse import urljoin
 import argparse
+import os
 
 
 def check_for_redirect(response):
@@ -18,9 +19,9 @@ def gets_title(soup):
     return title.strip(), author.strip()
 
 
-def download_txt(response_content, filename, folder='books/'):
+def download_txt(response_content, filename, folder='books'):
     Path(folder).mkdir(parents=True, exist_ok=True)
-    path = f'{folder}{sanitize_filename(filename)}.txt'
+    path = os.path.join(folder, f'{sanitize_filename(filename)}.txt')
     with open(path, 'wb') as file:
         file.write(response_content)
     return path
@@ -31,12 +32,12 @@ def get_url_cover_book(soup, book_url):
     return urljoin(book_url, book_cover)
 
 
-def download_images(url_cover, folder='images/'):
+def download_images(url_cover, folder='images'):
     Path(folder).mkdir(parents=True, exist_ok=True)
     filename = url_cover.split('/')[-1]
     response = requests.get(url_cover)
     response.raise_for_status()
-    path = f'{folder}{sanitize_filename(filename)}'
+    path = os.path.join(folder, sanitize_filename(filename))
     with open(path, 'wb') as file:
         file.write(response.content)
 
@@ -52,7 +53,7 @@ def gets_book_genres(soup):
     return genres
 
 
-def parse_book_page(soup, book_url, url):
+def parse_book_page(soup, book_url):
     title, author = gets_title(soup)
     book_page = {
         'title': title,
@@ -60,7 +61,6 @@ def parse_book_page(soup, book_url, url):
         'genres': gets_book_genres(soup),
         'comments': gets_comments(soup),
         'cover_book': get_url_cover_book(soup, book_url),
-        'download_link': url,
     }
     return book_page
 
@@ -99,7 +99,6 @@ def main():
             book_page = parse_book_page(
                 soup,
                 book_url,
-                response.url,
             )
             download_images(book_page['cover_book'])
             download_txt(response.content, book_page['title'])
