@@ -15,7 +15,8 @@ def check_for_redirect(response):
 
 
 def gets_title(soup):
-    title, author = soup.find('h1').text.split("::")
+    # title, author = soup.find('h1').text.split("::")
+    title, author = soup.select_one('h1').text.split('::')
     return title.strip(), author.strip()
 
 
@@ -28,7 +29,7 @@ def download_txt(response_content, filename, folder='books'):
 
 
 def get_url_cover_book(soup, book_url):
-    book_cover = soup.find('div', class_='bookimage').find('img')['src']
+    book_cover = soup.select_one('.bookimage img')['src']
     return urljoin(book_url, book_cover)
 
 
@@ -43,13 +44,13 @@ def download_images(url_cover, folder='images'):
 
 
 def gets_comments(soup):
-    comments = soup.find_all('div', class_='texts')
-    commentaries = [comment.find('span').text for comment in comments]
+    comments = soup.select('.texts span')
+    commentaries = [comment.text for comment in comments]
     return commentaries
 
 
 def gets_book_genres(soup):
-    genres = soup.find('span', class_='d_book').text.split(":")[-1].strip()
+    genres = soup.select_one('span.d_book').text.split(":")[-1].strip()
     return genres
 
 
