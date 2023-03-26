@@ -41,6 +41,7 @@ def download_images(url_cover, folder='images'):
     path = os.path.join(folder, sanitize_filename(filename))
     with open(path, 'wb') as file:
         file.write(response.content)
+    return path
 
 
 def gets_comments(soup):
