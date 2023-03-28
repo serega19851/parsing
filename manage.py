@@ -1,4 +1,4 @@
-from datetime import time
+import time
 import requests
 from pathlib import Path
 from pathvalidate import sanitize_filename
@@ -15,14 +15,25 @@ def check_for_redirect(response):
 
 
 def gets_title(soup):
-    # title, author = soup.find('h1').text.split("::")
     title, author = soup.select_one('h1').text.split('::')
     return title.strip(), author.strip()
 
 
-def download_txt(response_content, filename, folder='books'):
-    Path(folder).mkdir(parents=True, exist_ok=True)
-    path = os.path.join(folder, f'{sanitize_filename(filename)}.txt')
+def download_txt(
+        response_content,
+        filename,
+        dest_folder='dest_folder',
+        folder='books'
+):
+    Path(
+        os.path.join(dest_folder, folder)
+    ).mkdir(parents=True, exist_ok=True)
+
+    path = os.path.join(
+        dest_folder,
+        folder,
+        f'{sanitize_filename(filename)}.txt'
+    )
     with open(path, 'wb') as file:
         file.write(response_content)
     return path
@@ -33,12 +44,23 @@ def get_url_cover_book(soup, book_url):
     return urljoin(book_url, book_cover)
 
 
-def download_images(url_cover, folder='images'):
-    Path(folder).mkdir(parents=True, exist_ok=True)
+def download_images(
+        url_cover,
+        dest_folder='dest_folder',
+        folder='images'
+):
+    Path(
+        os.path.join(dest_folder, folder)
+    ).mkdir(parents=True, exist_ok=True)
+
     filename = url_cover.split('/')[-1]
     response = requests.get(url_cover)
     response.raise_for_status()
-    path = os.path.join(folder, sanitize_filename(filename))
+    path = os.path.join(
+        dest_folder,
+        folder,
+        sanitize_filename(filename)
+    )
     with open(path, 'wb') as file:
         file.write(response.content)
     return path
@@ -56,6 +78,10 @@ def gets_book_genres(soup):
 
 
 def parse_book_page(soup, book_url):
+    page_tags = soup.select('.d_book a ')
+    link = [
+        tag['href'] for tag in page_tags if 'txt' in tag['href']
+    ]
     title, author = gets_title(soup)
     book_page = {
         'title': title,
@@ -64,7 +90,7 @@ def parse_book_page(soup, book_url):
         'comments': gets_comments(soup),
         'cover_book': get_url_cover_book(soup, book_url),
     }
-    return book_page
+    return book_page, link
 
 
 def gets_number_args():
@@ -98,7 +124,7 @@ def main():
 
             check_for_redirect(response)
             check_for_redirect(book_response)
-            book_page = parse_book_page(
+            book_page, link = parse_book_page(
                 soup,
                 book_url,
             )
@@ -106,6 +132,7 @@ def main():
             download_txt(response.content, book_page['title'])
         except HTTPError as inf:
             print("Unable to download file ", response.url, str(inf))
+
         except requests.exceptions.ConnectionError as errc:
             print("Error Connecting:", errc)
             time.sleep(5)
