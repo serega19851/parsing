@@ -118,6 +118,7 @@ def main():
                         'genres': book_page['genres']
                     }
                     book_pages.extend([page_book])
+
                 except HTTPError as inf:
                     print(
                         "Unable to download file",
@@ -129,21 +130,21 @@ def main():
                     print("Error Connecting:", errc)
                     time.sleep(5)
 
-            path_json = os.path.join(args.json_path, "book_page.json")
-            with open(path_json, "w") as file:
-                json.dump(
-                    book_pages,
-                    file,
-                    ensure_ascii=False,
-                    indent=4
-                )
-
         except HTTPError as inf:
             print("Unable to download file", response.url, str(inf))
 
         except requests.exceptions.ConnectionError as errc:
             print("Error Connecting:", errc)
             time.sleep(5)
+
+    path_json = os.path.join(args.json_path, "book_page.json")
+    with open(path_json, "w") as file:
+        json.dump(
+            book_pages,
+            file,
+            ensure_ascii=False,
+            indent=4
+        )
 
 
 if __name__ == '__main__':
