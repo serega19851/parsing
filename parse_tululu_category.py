@@ -83,13 +83,13 @@ def main():
                     book_response.raise_for_status()
                     check_for_redirect(book_response)
                     book_soup = BeautifulSoup(book_response.text, 'lxml')
-                    book_page, link = parse_book_page(
+                    book_page = parse_book_page(
                         book_soup,
                         book_url,
                     )
-                    if not link:
+                    if not book_page['link']:
                         continue
-                    book_download_link = urljoin(book_url, str(*link))
+                    book_download_link = urljoin(book_url, book_page['link'])
                     download_link_response = requests.get(
                         book_download_link, allow_redirects=False
                     )

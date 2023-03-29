@@ -78,19 +78,20 @@ def gets_book_genres(soup):
 
 
 def parse_book_page(soup, book_url):
-    page_tags = soup.select('.d_book a ')
-    link = [
-        tag['href'] for tag in page_tags if 'txt' in tag['href']
-    ]
     title, author = gets_title(soup)
+    tag = soup.select_one('.d_book a[href^="/txt.php"]')
+    link = ''
+    if tag:
+        link = tag['href']
     book_page = {
         'title': title,
         'author': author,
         'genres': gets_book_genres(soup),
         'comments': gets_comments(soup),
         'cover_book': get_url_cover_book(soup, book_url),
+        'link': link
     }
-    return book_page, link
+    return book_page
 
 
 def gets_number_args():
@@ -124,7 +125,7 @@ def main():
 
             check_for_redirect(response)
             check_for_redirect(book_response)
-            book_page, link = parse_book_page(
+            book_page = parse_book_page(
                 soup,
                 book_url,
             )
