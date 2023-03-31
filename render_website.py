@@ -1,10 +1,10 @@
 import json
 import os
-from http.server import HTTPServer, SimpleHTTPRequestHandler
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+from livereload import Server
 
 
-def main():
+def on_reload():
     with open("book_page.json", "r") as file:
         book_page = file.read()
     book_pages = json.loads(book_page)
@@ -20,8 +20,12 @@ def main():
     with open('index.html', 'w', encoding="utf8") as file:
         file.write(rendered_page)
 
-    server = HTTPServer(('0.0.0.0', 8000), SimpleHTTPRequestHandler)
-    server.serve_forever()
+
+def main():
+    on_reload()
+    server = Server()
+    server.watch('templates/index.html', on_reload)
+    server.serve(root='.')
 
 
 if __name__ == '__main__':
