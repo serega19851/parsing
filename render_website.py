@@ -2,13 +2,13 @@ import json
 import os
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from livereload import Server
+from more_itertools import chunked
 
 
 def on_reload():
     with open("book_page.json", "r") as file:
         book_page = file.read()
-    book_pages = json.loads(book_page)
-
+    book_pages = chunked(json.loads(book_page), 2)
     env = Environment(
         loader=FileSystemLoader('.'),
         autoescape=select_autoescape(['html'])
