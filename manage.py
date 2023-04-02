@@ -33,7 +33,8 @@ def download_txt(
         dest_folder,
         folder,
         f'{sanitize_filename(filename)}.txt'
-    )
+    ).replace(' ', '_')
+
     with open(path, 'wb') as file:
         file.write(response_content)
     return path
