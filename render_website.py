@@ -12,17 +12,17 @@ def on_reload():
         books = file.read()
     book_pages = chunked(json.loads(books), 20)
 
-    for num, page in enumerate(book_pages):
+    for num, page in enumerate(book_pages, 1):
         books_part = chunked(page, 2)
 
         env = Environment(
             loader=FileSystemLoader('.'),
             autoescape=select_autoescape(['html'])
         )
-        template = env.get_template(os.path.join('templates', "index.html"))
+        template = env.get_template(os.path.join('templates', "template.html"))
         rendered_page = template.render(books_part=books_part)
         with open(os.path.join(
-                'pages', f'index{num + 1}.html'
+                'pages', f'index{num}.html'
         ), 'w', encoding="utf8") as file:
             file.write(rendered_page)
 
@@ -30,8 +30,8 @@ def on_reload():
 def main():
     on_reload()
     server = Server()
-    server.watch(os.path.join('templates', 'index.html'), on_reload)
-    server.serve(root='./pages/index1.html')
+    server.watch(os.path.join('templates', 'template.html'), on_reload)
+    server.serve(root='.')
 
 
 if __name__ == '__main__':
