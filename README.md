@@ -32,6 +32,13 @@ pip install -r requirements.txt
 >python parse_tululu_category.py --start_page 600 --end_page 700 --dest_folder --skip_txt
 ```
 
+## Создаём и запускаем сайт
+Запустим скрипт:
+```
+python render_website.py
+```
+Сайт библиотеки создан, перейдите в папку `pages` и откройте с помощью браузера файл `index1.html`.
+
 ### Цель проекта
 
 Код написан в образовательных целях на онлайн-курсе для веб-разработчиков [dvmn.org](https://dvmn.org/).
