@@ -12,6 +12,42 @@
     <title>Books</title>
 </head>
 <body>
+<div class="mx-auto" style="width: 1110px;">
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            {% if current_page != 1 %}
+            <li class="page-item"><a class="page-link" href="index{{current_page - 1}}.html">Назад</a></li>
+            {% else %}
+            <li class="page-item disabled">
+                <a class="page-link" href="index{{current_page}}.html" tabindex="-1">Назад</a>
+            </li>
+            {% endif %}
+            {% for number in range(1, pages_number + 1) %}
+            {% if number != current_page %}
+            <li class="page-item">
+                <a class="page-link" href="index{{number}}.html">{{number}}</a>
+            </li>
+            {% else %}
+            <li class="page-item active" aria-current="page">
+                <a class="page-link" href="index{{ number }}.html">{{ number }}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+            {% if current_page != pages_number %}
+            <li class="page-item">
+                <a class="page-link" href="index{{current_page + 1 }}.html">Вперед</a>
+            </li>
+            {% else %}
+            <li class="page-item disabled">
+                <a class="page-link" href="index{{current_page}}.html" tabindex="-1"
+                   aria-disabled="true">Вперёд</a>
+            </li>
+            {% endif %}
+        </ul>
+    </nav>
+</div>
+
 {% for books in books_part %}
 <div class="container">
     <div class="row">
@@ -25,7 +61,8 @@
                         <div class="card-body">
                             <h5 class="card-title">{{books[0].title}} </h5>
                             <p class="card-text">{{books[0].author}}</p>
-                            <p class="card-text"><small class="text-muted"><a href="/{{books[0].book_path}}" target="blank"> Читать </a></small></p>
+                            <p class="card-text"><small class="text-muted"><a href="/{{books[0].book_path}}"
+                                                                              target="blank"> Читать </a></small></p>
                         </div>
                     </div>
                 </div>
@@ -42,7 +79,8 @@
                         <div class="card-body">
                             <h5 class="card-title">{{books[-1].title}} </h5>
                             <p class="card-text">{{books[-1].author}}</p>
-                            <p class="card-text"><small class="text-muted"><a href="/{{books[-1].book_path}}" target="blank"> Читать </a></small></p>
+                            <p class="card-text"><small class="text-muted"><a href="/{{books[-1].book_path}}"
+                                                                              target="blank"> Читать </a></small></p>
                         </div>
                     </div>
                 </div>
