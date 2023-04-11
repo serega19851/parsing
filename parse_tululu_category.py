@@ -115,7 +115,7 @@ def main():
                         "img_src": img_path,
                         "book_path": book_path,
                         "comments": book_page['comments'],
-                        'genres': book_page['genres']
+                        'genres': book_page['genres'].split(',')
                     }
                     book_pages.extend([page_book])
 
