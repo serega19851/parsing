@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/static/bootstrap.min.css">
-    <link rel="icon" href="/favicon/img.png"/>
+    <link rel="stylesheet" href="../static/bootstrap.min.css">
+    <link rel="icon" href="../favicon/img.png"/>
 
     <title>Books</title>
 </head>
@@ -55,14 +55,16 @@
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row no-gutters">
                     <div class="col-md-4">
-                        <img src="/{{books[0].img_src}}" class="card-img" alt="img_src">
+                        <img src="../{{books[0].img_src}}" class="card-img" alt="img_src">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
                             <h5 class="card-title">{{books[0].title}} </h5>
                             <p class="card-text">{{books[0].author}}</p>
-                            <span class="badge badge-light">{{books[0].genres}}</span>
-                            <p class="card-text"><small class="text-muted"><a href="/{{books[0].book_path}}"
+                            {% for genre in books[0].genres %}
+                              <span class="badge badge-light">{{genre}}</span>
+                            {% endfor %}
+                            <p class="card-text"><small class="text-muted"><a href="../{{books[0].book_path}}"
                                                                               target="blank"> Читать </a></small></p>
                         </div>
                     </div>
@@ -74,14 +76,16 @@
             <div class="card mb-3" style="max-width: 540px;">
                 <div class="row no-gutters">
                     <div class="col-md-4">
-                        <img src="/{{books[-1].img_src}}" class="card-img" alt="img_src">
+                        <img src="../{{books[-1].img_src}}" class="card-img" alt="img_src">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
                             <h5 class="card-title">{{books[-1].title}} </h5>
                             <p class="card-text">{{books[-1].author}}</p>
-                            <span class="badge badge-pill badge-light">{{books[-1].genres}}</span>
-                            <p class="card-text"><small class="text-muted"><a href="/{{books[-1].book_path}}"
+                            {% for genre in books[0].genres %}
+                              <span class="badge badge-light">{{genre}}</span>
+                            {% endfor %}
+                            <p class="card-text"><small class="text-muted"><a href="../{{books[-1].book_path}}"
                                                                               target="blank"> Читать </a></small></p>
                         </div>
                     </div>
