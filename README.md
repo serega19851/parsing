@@ -1,6 +1,6 @@
 #  офлайн библиотека
 Вы можете посмотреть сайт по ссылке:
-[Библиотека](https://serega19851.github.io/pages/index1.html)
+[Библиотека](https://serega19851.github.io/parsing/pages/index1.html)
 
 Программа скачивает книги с сайта https://tululu.org/ 
 
