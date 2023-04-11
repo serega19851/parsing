@@ -39,6 +39,7 @@ pip install -r requirements.txt
 ```
 python render_website.py
 ```
+Ссылка на локальную версию сайта http://127.0.0.1:5500/pages/index1.html
 Сайт библиотеки создан, перейдите в папку `pages` и откройте с помощью браузера файл `index1.html`.
 
 ### Цель проекта
