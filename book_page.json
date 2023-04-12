@@ -2,8 +2,8 @@
     {
         "title": "Алиби",
         "author": "ИВАНОВ Сергей",
-        "img_src": "dest_folder/images/239.jpg",
-        "book_path": "dest_folder/books/Алиби.txt",
+        "img_src": "media/images/239.jpg",
+        "book_path": "media/books/Алиби.txt",
         "comments": [
             "Детский вариант анекдотов про Шерлока Холмса)",
             "Загадки я люблю.)))",
@@ -18,8 +18,8 @@
     {
         "title": "Бич небесный",
         "author": "Стерлинг Брюс",
-        "img_src": "dest_folder/images/550.jpg",
-        "book_path": "dest_folder/books/Бич_небесный.txt",
+        "img_src": "media/images/550.jpg",
+        "book_path": "media/books/Бич_небесный.txt",
         "comments": [
             "Весьма интересная книга. Динамичный сюжет, насыщеный приключениями. Вмеру счастливый конец для главных героев. Оставляет чувство удовлетворения и завершенности. Немного коробит жаргон персонажей (пара выражений).",
             "книга супер!",
@@ -38,8 +38,8 @@
     {
         "title": "Цена посвящения: Серый Ангел",
         "author": "Маркеев Олег Георгиевич",
-        "img_src": "dest_folder/images/768.jpg",
-        "book_path": "dest_folder/books/Цена_посвящения_Серый_Ангел.txt",
+        "img_src": "media/images/768.jpg",
+        "book_path": "media/books/Цена_посвящения_Серый_Ангел.txt",
         "comments": [
             "Очень хорошо, много интересных мыслей. Советую.",
             "Понравилось. Немного политизированности создает специфические ассоциации по восприятию произведения. Не скажу что \"отпад как классно\", но интересно читать. Фантастики как таковой нет, но от этого детектив хуже не стал."
@@ -52,8 +52,8 @@
     {
         "title": "Цена посвящения: Время Зверя",
         "author": "Маркеев Олег Георгиевич",
-        "img_src": "dest_folder/images/769.jpg",
-        "book_path": "dest_folder/books/Цена_посвящения_Время_Зверя.txt",
+        "img_src": "media/images/769.jpg",
+        "book_path": "media/books/Цена_посвящения_Время_Зверя.txt",
         "comments": [
             "Мне понравилось, приятно читать умного человека чтобы он не писал.",
             "Из этой серии, лучшая!",
@@ -67,8 +67,8 @@
     {
         "title": "Дело Джен, или Эйра немилосердия",
         "author": "Fforde Jasper",
-        "img_src": "dest_folder/images/1131.jpg",
-        "book_path": "dest_folder/books/Дело_Джен,_или_Эйра_немилосердия.txt",
+        "img_src": "media/images/1131.jpg",
+        "book_path": "media/books/Дело_Джен,_или_Эйра_немилосердия.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -78,8 +78,8 @@
     {
         "title": "Фабрика дьявола",
         "author": "Мар Курт",
-        "img_src": "dest_folder/images/1715.jpg",
-        "book_path": "dest_folder/books/Фабрика_дьявола.txt",
+        "img_src": "media/images/1715.jpg",
+        "book_path": "media/books/Фабрика_дьявола.txt",
         "comments": [
             "Книга супер!=)) всем советую!=)",
             "\nдинамичное развитие событий, прочитав страницу, хочется читать следующую; хорошо, но мало.",
@@ -95,8 +95,8 @@
     {
         "title": "Говорящий камень",
         "author": "Азимов Айзек",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/Говорящий_камень.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/Говорящий_камень.txt",
         "comments": [
             "читала похожее произведение. \"Мешок\", автора не помню.",
             "Спасибо!!!",
@@ -115,8 +115,8 @@
     {
         "title": "И Он пришел... ИТ-роман",
         "author": "Аджалов Владимир",
-        "img_src": "dest_folder/images/2043.jpg",
-        "book_path": "dest_folder/books/И_Он_пришел..._ИТ-роман.txt",
+        "img_src": "media/images/2043.jpg",
+        "book_path": "media/books/И_Он_пришел..._ИТ-роман.txt",
         "comments": [
             "С удовольствием прочитал эту книгу, это удивительная книга по охвату событий сочетание прошлого и настоящего. Побольше бы таких.",
             "Автор пришет в стиле Арура Хейли (Аэропорт, Отель и т.д.- кто не читал) - такая же многоплановость повествования и развитие сюжета в жанре экшн, но у Хейли даже второстепенные герои так мастерски выписаны, что надолго запоминаются, а здесь они банально одномерны. Кстати, идею об эмбрионах автор тоже позаимствовал из известной книги Код бытия, которой, соответственно, проигрывает. Эдинственный плюс - может кто-то после прочтения зантересуется хотя бы Библией и Евангелием, который мы так плохо знаем, ведь люди не читают подобной литературы, а может, даже почувствует Бога внутри себя и станет лучше!!!",
@@ -147,8 +147,8 @@
     {
         "title": "Казнить нельзя помиловать",
         "author": "Чертанов Максим",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/Казнить_нельзя_помиловать.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/Казнить_нельзя_помиловать.txt",
         "comments": [
             "Стоит прочесть, несмотря на кое-гдешные замудрёносушности))"
         ],
@@ -160,8 +160,8 @@
     {
         "title": "Ночь, которая умирает",
         "author": "Азимов Айзек",
-        "img_src": "dest_folder/images/4024.jpg",
-        "book_path": "dest_folder/books/Ночь,_которая_умирает.txt",
+        "img_src": "media/images/4024.jpg",
+        "book_path": "media/books/Ночь,_которая_умирает.txt",
         "comments": [
             "Отличная книга! Причитал быстро, очень понравилась.",
             "Ни фига не логично все. Если, как утверждает преступник \"все остальное произошло само собой. Одно потянуло за собой другое, и прежде, чем я понял, что делаю, было уже поздно\", то не думаю что у него совершенно случайно с собой оказалась запасная пленка, которую он вставил в фотик, отснял записи, потом вынул и спрятал, а в фотик вернул ту пленку что была там раньше. Все же произошло \"само собой\", то есть в состоянии аффекта, рядом с трупом... А если запасной пленки не было, тогда когда он отдал свой фотоаппарат на проверку, выяснилось бы что она новая, а это подозрительно в первую очередь. Короче троечка...",
@@ -180,8 +180,8 @@
     {
         "title": "Нырок в забвение",
         "author": "Хенрик Ричард",
-        "img_src": "dest_folder/images/4102.jpg",
-        "book_path": "dest_folder/books/Нырок_в_забвение.txt",
+        "img_src": "media/images/4102.jpg",
+        "book_path": "media/books/Нырок_в_забвение.txt",
         "comments": [
             "Автору: Хенрик РичардYan Smit 25. 09. 2011 13:29:15 (перенесено)Нырок в забвение:: Хенрик Ричард Это не фантастика, это какая-то пропагандистская агитка( Автор не шарит в науках, но пишет о них - простительно. Автор не военный, но сочиняет на околовоенные темы - плевать. Но как у него русский КАПИТАН, прошедший войну, вдруг решил в жизни \"плыть по течению\"???! Автор, что, русских только по своим газетам, да по нашим москвичам видел? А \"океанолог Ирина\", через каждые пять минут ругающая перед иностранцами своё, советское, откуда взялась? Что за гибрид проститутки с инопланетянином? В любом народе люди между собой по костям разложат и своё и своих, но перед чужими - хрен! Ни француз, ни американец, ни, тем более русский - СВОЁ перед чужими никогда опускать не станет. В общем, персонажи картонные, действо надуманное, и книжонку \"вытягивает\" только сюжет и как-бы современность. Ощущения при чтении - чтиво на раз. Долистать, плюнуть, и повесить в общественном туалете деревенском."
         ],
@@ -194,8 +194,8 @@
     {
         "title": "Поющий колокольчик",
         "author": "Азимов Айзек",
-        "img_src": "dest_folder/images/4876.jpg",
-        "book_path": "dest_folder/books/Поющий_колокольчик.txt",
+        "img_src": "media/images/4876.jpg",
+        "book_path": "media/books/Поющий_колокольчик.txt",
         "comments": [
             "как и все по-настоящему драгоценное, колокольчики были хрупки до невозможности. но человек в своем стремлении к наживе забывает о хрупкости и видит перед собой только ценность... цену, выраженную в денежном эквиваленте...",
             "Я прочитала эти произведения ещё в институте и просто заболела Азимовым. Книги я брала у знакомых, но сейчас благодоря интернету могу читать когда угодно. Спасибо вам!",
@@ -209,8 +209,8 @@
     {
         "title": "Продается тело Христа",
         "author": "Аджалов Владимир Исфандеярович",
-        "img_src": "dest_folder/images/5299.jpg",
-        "book_path": "dest_folder/books/Продается_тело_Христа.txt",
+        "img_src": "media/images/5299.jpg",
+        "book_path": "media/books/Продается_тело_Христа.txt",
         "comments": [
             "Приятная книга=)",
             "Чем- то напоминает фильм \"2012\", особенно, тема Христа. Глупо и притянуто за уши, самое то для тех, кто от радости брызгает слюной в сказках о Боге, спасителе и прочей ерунде))",
@@ -227,8 +227,8 @@
     {
         "title": "Роковой поцелуй",
         "author": "Патрацкая Наталья",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/Роковой_поцелуй.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/Роковой_поцелуй.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -239,8 +239,8 @@
     {
         "title": "Те, кто против нас",
         "author": "Руденко Борис",
-        "img_src": "dest_folder/images/6758.jpg",
-        "book_path": "dest_folder/books/Те,_кто_против_нас.txt",
+        "img_src": "media/images/6758.jpg",
+        "book_path": "media/books/Те,_кто_против_нас.txt",
         "comments": [
             "Есть над чем подумать. Спасибо автору за хорошую книгу.",
             "Книга очень понравилась! И идея новая, и сюжет интересный.",
@@ -259,8 +259,8 @@
     {
         "title": "Телепортеры, внимание!",
         "author": "Мар Курт",
-        "img_src": "dest_folder/images/6766.jpg",
-        "book_path": "dest_folder/books/Телепортеры,_внимание!.txt",
+        "img_src": "media/images/6766.jpg",
+        "book_path": "media/books/Телепортеры,_внимание!.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -270,8 +270,8 @@
     {
         "title": "Зодиак",
         "author": "Стивенсон Нил",
-        "img_src": "dest_folder/images/8283.jpg",
-        "book_path": "dest_folder/books/Зодиак.txt",
+        "img_src": "media/images/8283.jpg",
+        "book_path": "media/books/Зодиак.txt",
         "comments": [
             "ооооо, великая оранжевая серия!!! Большая часть из этой линии застревает и в душе, и в голове надолго))) \r\nнадеюсь и эта книга произведет на меня такое же сильное впечатление, как и другие оранжевые%)))"
         ],
@@ -283,8 +283,8 @@
     {
         "title": "Justitia - est Часть 1",
         "author": "Картман Эрика",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/Justitia_-_est_Часть_1.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/Justitia_-_est_Часть_1.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -294,8 +294,8 @@
     {
         "title": "Астронавт Джонс",
         "author": "Хайнлайн Роберт",
-        "img_src": "dest_folder/images/8902.jpg",
-        "book_path": "dest_folder/books/Астронавт_Джонс.txt",
+        "img_src": "media/images/8902.jpg",
+        "book_path": "media/books/Астронавт_Джонс.txt",
         "comments": [
             "Замечательная книга, поэтому и скачиваю. Читал давно, хочу перечитать снова.",
             "Среди нынешнего мусора, книга представляет образец настоящей фантастики. Моя оценка 5. Один недочет - в конце ожидал большего.",
@@ -324,8 +324,8 @@
     {
         "title": "Будет скафандр - будут и путешествия",
         "author": "Хайнлайн Роберт",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/Будет_скафандр_-_будут_и_путешествия.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/Будет_скафандр_-_будут_и_путешествия.txt",
         "comments": [
             "Хорошая добрая книга.",
             "Очень приятная книга. Мягкая и пушистая.",
@@ -346,8 +346,8 @@
     {
         "title": "Дочь Нефертити",
         "author": "Семенова Татьяна",
-        "img_src": "dest_folder/images/9402.jpg",
-        "book_path": "dest_folder/books/Дочь_Нефертити.txt",
+        "img_src": "media/images/9402.jpg",
+        "book_path": "media/books/Дочь_Нефертити.txt",
         "comments": [
             "Несмотря на пометку, что литература для детей, мне очень понравился роман. Приятно наблюдать, что автор, перед написанием, проштудировала материалы по быту, одежде и прочим тонкостям как самой XVIII династии, так и исторические сведения о Древнем Египте. Преподнесено очень легко и ненавязчиво. Умничка, одним словом))",
             "Книга очень понравилась, хотя уже далеко не детский возраст. Книга читается очень легко.",
@@ -368,8 +368,8 @@
     {
         "title": "Наложница императора",
         "author": "Семенова Татьяна",
-        "img_src": "dest_folder/images/10768.jpg",
-        "book_path": "dest_folder/books/Наложница_императора.txt",
+        "img_src": "media/images/10768.jpg",
+        "book_path": "media/books/Наложница_императора.txt",
         "comments": [
             "Замечательная книга, в которой весьма интересно изложены исторические факты, вплетённые в роман о приключениях современных подростков))",
             "Книга очень увлекательная.",
@@ -384,8 +384,8 @@
     {
         "title": "Общая теория Доминант",
         "author": "Белохвостов Денис",
-        "img_src": "dest_folder/images/10923.jpg",
-        "book_path": "dest_folder/books/Общая_теория_Доминант.txt",
+        "img_src": "media/images/10923.jpg",
+        "book_path": "media/books/Общая_теория_Доминант.txt",
         "comments": [
             "очень интересная книга, перечитывала раз5",
             "Сюжет книги очень интересный, динамичный.",
@@ -406,8 +406,8 @@
     {
         "title": "Взгляд из сердца",
         "author": "Мейстер Максим",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/Взгляд_из_сердца.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/Взгляд_из_сердца.txt",
         "comments": [],
         "genres": [
             "Детская проза",
@@ -420,8 +420,8 @@
     {
         "title": "Звездный зверь ( Звездное чудовище)",
         "author": "Хайнлайн Роберт",
-        "img_src": "dest_folder/images/13038.jpg",
-        "book_path": "dest_folder/books/Звездный_зверь_(_Звездное_чудовище).txt",
+        "img_src": "media/images/13038.jpg",
+        "book_path": "media/books/Звездный_зверь_(_Звездное_чудовище).txt",
         "comments": [
             "Хорошая книжка.",
             "Ксенофобия, ненависть ко всему тому что не хочется понимать, может привести к гибели чедовечество. Эта тема актуальна сейчас и скорее всего будет актуальна еще очень долго.",
@@ -435,8 +435,8 @@
     {
         "title": "Сборник рассказов и повестей",
         "author": "ЛУКИНА Любовь",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/Сборник_рассказов_и_повестей.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/Сборник_рассказов_и_повестей.txt",
         "comments": [],
         "genres": [
             "Научная фантастика",
@@ -447,8 +447,8 @@
     {
         "title": "...Яко помниши его",
         "author": "Азимов Айзек",
-        "img_src": "dest_folder/images/18919.jpg",
-        "book_path": "dest_folder/books/...Яко_помниши_его.txt",
+        "img_src": "media/images/18919.jpg",
+        "book_path": "media/books/...Яко_помниши_его.txt",
         "comments": [
             "все просто супер",
             "НИШТЯК-КНИГА",
@@ -475,8 +475,8 @@
     {
         "title": "...На Вавилон",
         "author": "Силверберг Роберт",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/...На_Вавилон.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/...На_Вавилон.txt",
         "comments": [
             "Отличный рассказ.",
             "Этот рассказ захватывает с первого до последнего момента, почитайте, поймете, чем он интересен. Советую.",
@@ -491,8 +491,8 @@
     {
         "title": "...Вставьте шплинт А в гнездо Б...",
         "author": "Азимов Айзек",
-        "img_src": "dest_folder/images/18921.jpg",
-        "book_path": "dest_folder/books/...Вставьте_шплинт_А_в_гнездо_Б.txt",
+        "img_src": "media/images/18921.jpg",
+        "book_path": "media/books/...Вставьте_шплинт_А_в_гнездо_Б.txt",
         "comments": [
             "Да уж, история на одну минуту. Сюжет простейший, ничего необычного, но улыбнуло))",
             "Хорошия история. Прочитал, улыбнулся и, наверное, забыл. Но, рассказ очень милый...",
@@ -515,8 +515,8 @@
     {
         "title": "...к звездам!",
         "author": "Радутный Радий",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/...к_звездам!.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/...к_звездам!.txt",
         "comments": [
             "Спасибо за полученное удовольствие."
         ],
@@ -527,8 +527,8 @@
     {
         "title": "1-книга. Весна на Галане",
         "author": "Карр Алекс",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/1-книга._Весна_на_Галане.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/1-книга._Весна_на_Галане.txt",
         "comments": [
             "Если честно, то слишком растянуто и нудновато. А в общем, идея понравилась, можно почитать, разок.",
             "Согласна. Есть интересные моменты, но явный перебор по колличеству печатных знаков. Занудные описание роскоши, повтор на повторе. Автор выдохся в середине первой части. Эту книгу можно пролистать, останавливаясь на некоторых моментах.",
@@ -542,8 +542,8 @@
     {
         "title": "10-я книга. Варкенские перемены.",
         "author": "Карр Алекс",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/10-я_книга._Варкенские_перемены.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/10-я_книга._Варкенские_перемены.txt",
         "comments": [
             "Я ставлю 4."
         ],
@@ -554,8 +554,8 @@
     {
         "title": "11-я книга. Рождение империи сенсетивов",
         "author": "Карр Алекс",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/11-я_книга._Рождение_империи_сенсетивов.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/11-я_книга._Рождение_империи_сенсетивов.txt",
         "comments": [
             "Спасобо вам за это произведение!!!!!",
             "Спасибо огромное, жду с нетерпением 16 книгу. Почему о вас нигде нет информации.? Пишете очень интересно-погрузилась в этот мир с удовольствием."
@@ -567,8 +567,8 @@
     {
         "title": "13-я книга. Галанское сватовство",
         "author": "Карр Алекс",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/13-я_книга._Галанское_сватовство.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/13-я_книга._Галанское_сватовство.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -577,8 +577,8 @@
     {
         "title": "132-й",
         "author": "Макаров Андрей",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/132-й.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/132-й.txt",
         "comments": [
             "Хороший рассказ. Так и хочется этому штабному офицеру смазать по мурсалам... Сытый, чистый, самодовольный. Хорошо, что были и есть такие, как тот несуразный полковник.",
             "Хороший рассказ, только жизненный, не фантастика.",
@@ -593,8 +593,8 @@
     {
         "title": "14-я книга. Барабаны Таланов",
         "author": "Карр Алекс",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/14-я_книга._Барабаны_Таланов.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/14-я_книга._Барабаны_Таланов.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -603,8 +603,8 @@
     {
         "title": "15-я книга. Школа арханелов",
         "author": "Карр Алекс",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/15-я_книга._Школа_арханелов.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/15-я_книга._Школа_арханелов.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -613,8 +613,8 @@
     {
         "title": "2-я книга. Сенсетивы Галана",
         "author": "Карр Алекс",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/2-я_книга._Сенсетивы_Галана.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/2-я_книга._Сенсетивы_Галана.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -623,8 +623,8 @@
     {
         "title": "4-я книга. Экспедиция на Голубой планетоид",
         "author": "Карр Алекс",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/4-я_книга._Экспедиция_на_Голубой_планетоид.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/4-я_книга._Экспедиция_на_Голубой_планетоид.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -633,8 +633,8 @@
     {
         "title": "5-я книга. В подземельях Бидрупа.",
         "author": "Карр Алекс",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/5-я_книга._В_подземельях_Бидрупа.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/5-я_книга._В_подземельях_Бидрупа.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -643,8 +643,8 @@
     {
         "title": "53-я американская мечта",
         "author": "Салли Джейли",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/53-я_американская_мечта.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/53-я_американская_мечта.txt",
         "comments": [
             "Полнейший бред по моему мнению.",
             "Вы можете долго искать смысл в этом рассказе, но так и не найти. В этом, наверное, и была цель автора."
@@ -656,8 +656,8 @@
     {
         "title": "6-я книга. Сражение за Бидруп.",
         "author": "Карр Алекс",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/6-я_книга._Сражение_за_Бидруп.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/6-я_книга._Сражение_за_Бидруп.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -666,8 +666,8 @@
     {
         "title": "64-клеточный дурдом",
         "author": "Лейбер Фриц",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/64-клеточный_дурдом.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/64-клеточный_дурдом.txt",
         "comments": [
             "Заставляет задуматься- человек против мной машины или наоборот. Понравится любителям шахматных игр- книга для вас."
         ],
@@ -678,8 +678,8 @@
     {
         "title": "7-я книга. День Откровения",
         "author": "Карр Алекс",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/7-я_книга._День_Откровения.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/7-я_книга._День_Откровения.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -688,8 +688,8 @@
     {
         "title": "8-я книга. Полет Уригленны.",
         "author": "Карр Алекс",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/8-я_книга._Полет_Уригленны.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/8-я_книга._Полет_Уригленны.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -698,8 +698,8 @@
     {
         "title": "9-я книга. Тарат Зурбин",
         "author": "Карр Алекс",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/9-я_книга._Тарат_Зурбин.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/9-я_книга._Тарат_Зурбин.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -708,8 +708,8 @@
     {
         "title": "90х60х90",
         "author": "Берендеев Кирилл",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/90х60х90.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/90х60х90.txt",
         "comments": [
             "Ни фантастики, ни фэнтези, обычный детектив... Про обычную жизненную ситуацию... Правда, пара диалогов заставили задуматься, но не более..."
         ],
@@ -720,8 +720,8 @@
     {
         "title": "995-й святой",
         "author": "Цветков Юрий",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/995-й_святой.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/995-й_святой.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -730,8 +730,8 @@
     {
         "title": "А, Критика!",
         "author": "Еськов Кирилл",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А,_Критика!.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А,_Критика!.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -740,8 +740,8 @@
     {
         "title": "АНТОЛОГИЯ СКАНДИНАВСКОЙ ФАНТАСТИКИ",
         "author": "Бойе Карин",
-        "img_src": "dest_folder/images/18949.jpg",
-        "book_path": "dest_folder/books/АНТОЛОГИЯ_СКАНДИНАВСКОЙ_ФАНТАСТИКИ.txt",
+        "img_src": "media/images/18949.jpg",
+        "book_path": "media/books/АНТОЛОГИЯ_СКАНДИНАВСКОЙ_ФАНТАСТИКИ.txt",
         "comments": [
             "Занудная хоть и фантастика.",
             "Правда занудная, хоть и фантастика.",
@@ -757,8 +757,8 @@
     {
         "title": "А бог един",
         "author": "Амнуэль Песах",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_бог_един.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_бог_един.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -767,8 +767,8 @@
     {
         "title": "А была ли тайна",
         "author": "Купцов Василий",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_была_ли_тайна.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_была_ли_тайна.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -777,8 +777,8 @@
     {
         "title": "А человек забудет",
         "author": "Трусов Сергей",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_человек_забудет.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_человек_забудет.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -787,8 +787,8 @@
     {
         "title": "А что будет",
         "author": "Браун Фредерик",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_что_будет.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_что_будет.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -797,8 +797,8 @@
     {
         "title": "А что с ними делать дальше?",
         "author": "Фостер Алан Дин",
-        "img_src": "dest_folder/images/18956.jpg",
-        "book_path": "dest_folder/books/А_что_с_ними_делать_дальше.txt",
+        "img_src": "media/images/18956.jpg",
+        "book_path": "media/books/А_что_с_ними_делать_дальше.txt",
         "comments": [
             "Этот расказ интересен тока короткий больно охота проду : )",
             "Мне понравилось. Только я думала, что йоппы - это все-таки мы земляне.",
@@ -813,8 +813,8 @@
     {
         "title": "А дом стоит себе спокойно (Вечный дом)",
         "author": "Ван Вогт Альфред",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_дом_стоит_себе_спокойно_(Вечный_дом).txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_дом_стоит_себе_спокойно_(Вечный_дом).txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -823,8 +823,8 @@
     {
         "title": "А еще мы выгуливаем собак",
         "author": "Хайнлайн Роберт",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_еще_мы_выгуливаем_собак.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_еще_мы_выгуливаем_собак.txt",
         "comments": [
             "Легенький рассказик о фирме оказующей ну просто любые услуги.",
             "Рекомдую у Ханлайнф плохих книг нетю.",
@@ -837,8 +837,8 @@
     {
         "title": "А где же Рошар",
         "author": "Глазков Юрий",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_где_же_Рошар.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_где_же_Рошар.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -847,8 +847,8 @@
     {
         "title": "А и Е",
         "author": "Стульник Сергей",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_и_Е.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_и_Е.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -857,8 +857,8 @@
     {
         "title": "А я пойду дальше",
         "author": "Лейбер Фриц",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_я_пойду_дальше.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_я_пойду_дальше.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -867,8 +867,8 @@
     {
         "title": "А как же еще",
         "author": "Каттнер Генри",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_как_же_еще.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_как_же_еще.txt",
         "comments": [
             "Чудесный юмор )"
         ],
@@ -879,8 +879,8 @@
     {
         "title": "А мне до них",
         "author": "Корепанов Алексей",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_мне_до_них.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_мне_до_них.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -889,8 +889,8 @@
     {
         "title": "А могла бы и быть",
         "author": "Григорьев Владимир",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_могла_бы_и_быть.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_могла_бы_и_быть.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -899,8 +899,8 @@
     {
         "title": "А моя мама - ведьма!",
         "author": "Тенн Уильям",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_моя_мама_-_ведьма!.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_моя_мама_-_ведьма!.txt",
         "comments": [
             "Весьма рекомендую. Магия глазами ребёнка, рассказ - троюродный брат шурина кума знакомой подруги от того фильма \"Лабиринт Фавна\"... В общем читаем."
         ],
@@ -911,8 +911,8 @@
     {
         "title": "А мы лезем в окно",
         "author": "Молзберг Барри",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_мы_лезем_в_окно.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_мы_лезем_в_окно.txt",
         "comments": [
             "По этому рассказу я поставил номер в институте культуры еще  в 1990 году. До сих пор его признают как шедевр студенческого мастерства. Пытались некоторые поставить по-своему, но когда им Евгений Вандалковский рассказывал как ЭТО было - делали реверанс и искали другой материал."
         ],
@@ -923,8 +923,8 @@
     {
         "title": "А она уходила",
         "author": "Дымов Феликс Яковлевич",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_она_уходила.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_она_уходила.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -933,8 +933,8 @@
     {
         "title": "А поезд идет",
         "author": "Ашкинази Леонид",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_поезд_идет.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_поезд_идет.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -943,8 +943,8 @@
     {
         "title": "А роза упала на лапу Азора",
         "author": "Осинский Владимир",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_роза_упала_на_лапу_Азора.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_роза_упала_на_лапу_Азора.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -953,8 +953,8 @@
     {
         "title": "А вдруг они победят",
         "author": "Белен",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_вдруг_они_победят.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_вдруг_они_победят.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -963,8 +963,8 @@
     {
         "title": "А вдруг",
         "author": "Грешнов Михаил",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_вдруг.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_вдруг.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -973,8 +973,8 @@
     {
         "title": "А все из-за любви",
         "author": "Гуларт Рон",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_все_из-за_любви.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_все_из-за_любви.txt",
         "comments": [
             "Очень точное название. Нельзя в любовных делах полагаться на других, нужно самому принимать решения. О цене ошибки, ее последствиях..."
         ],
@@ -985,8 +985,8 @@
     {
         "title": "А всходы будут не скоро",
         "author": "Чешко Федор",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_всходы_будут_не_скоро.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_всходы_будут_не_скоро.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -995,8 +995,8 @@
     {
         "title": "А вы не верили",
         "author": "Ягупова Светлана",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_вы_не_верили.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_вы_не_верили.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -1005,8 +1005,8 @@
     {
         "title": "А за тобой придет генерал",
         "author": "Воробьев Борис",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_за_тобой_придет_генерал.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_за_тобой_придет_генерал.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -1015,8 +1015,8 @@
     {
         "title": "А жизнь идёт",
         "author": "Бояндин Константин",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/А_жизнь_идёт.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/А_жизнь_идёт.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -1025,8 +1025,8 @@
     {
         "title": "Ааст Ллун - архитектор неба",
         "author": "Гуревич Георгий Иосифович",
-        "img_src": "dest_folder/images/18981.jpg",
-        "book_path": "dest_folder/books/Ааст_Ллун_-_архитектор_неба.txt",
+        "img_src": "media/images/18981.jpg",
+        "book_path": "media/books/Ааст_Ллун_-_архитектор_неба.txt",
         "comments": [
             "В детстве зачитывалась этой книгой, но и тогда поражала как сила воли человеческая, так и то, что нерешенные проблемы были, есть и всегда будут.",
             "Сначала тяжело было читать, много непонятного, но затем втянувшись не могла оторваться. Интересное повествование путешествия главного героя, описываются мелкие детали жизни разных народов.",
@@ -1039,8 +1039,8 @@
     {
         "title": "Абадон",
         "author": "Купцов Василий",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/Абадон.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/Абадон.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -1049,8 +1049,8 @@
     {
         "title": "Абицелла",
         "author": "Попогребский П",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/Абицелла.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/Абицелла.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -1059,8 +1059,8 @@
     {
         "title": "Абракадабра",
         "author": "Рассел Эрик Фрэнк",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/Абракадабра.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/Абракадабра.txt",
         "comments": [
             "забавная история. Рекомендую)",
             "Вот история о том, до чего может довести желание во что бы то ни стало угодить проверяющему чиновнику! Да уж, и что ж делать-то ему теперь?... ",
@@ -1073,8 +1073,8 @@
     {
         "title": "Абсолютная Энциклопедия. Том 2",
         "author": "Диксон Гордон",
-        "img_src": "dest_folder/images/18987.jpg",
-        "book_path": "dest_folder/books/Абсолютная_Энциклопедия._Том_2.txt",
+        "img_src": "media/images/18987.jpg",
+        "book_path": "media/books/Абсолютная_Энциклопедия._Том_2.txt",
         "comments": [
             "Horoschaya zahvatyvayuschaya kniga, spasibo vam otdohnul."
         ],
@@ -1085,8 +1085,8 @@
     {
         "title": "Абсолютная гарантия",
         "author": "Иванов Борис",
-        "img_src": "dest_folder/images/18988.jpg",
-        "book_path": "dest_folder/books/Абсолютная_гарантия.txt",
+        "img_src": "media/images/18988.jpg",
+        "book_path": "media/books/Абсолютная_гарантия.txt",
         "comments": [
             "книга, как и вся серия, как и все творчество автора очень хороша. Настоятельно рекомендую.",
             "Так... Почитать можно что бы время убить.",
@@ -1118,8 +1118,8 @@
     {
         "title": "Абсолютная полиция",
         "author": "Лисин Валерий",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/Абсолютная_полиция.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/Абсолютная_полиция.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -1128,8 +1128,8 @@
     {
         "title": "Абсолютная правда",
         "author": "Коростелев Дмитрий",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/Абсолютная_правда.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/Абсолютная_правда.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -1138,8 +1138,8 @@
     {
         "title": "Абсолютная пустота (предисловие)",
         "author": "Лем Станислав",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/Абсолютная_пустота_(предисловие).txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/Абсолютная_пустота_(предисловие).txt",
         "comments": [
             "А что писать, я ничего не нашла! Где это предесловие?"
         ],
@@ -1150,8 +1150,8 @@
     {
         "title": "Абсолютная технократия",
         "author": "Альдани Лино",
-        "img_src": "dest_folder/images/18993.jpg",
-        "book_path": "dest_folder/books/Абсолютная_технократия.txt",
+        "img_src": "media/images/18993.jpg",
+        "book_path": "media/books/Абсолютная_технократия.txt",
         "comments": [
             "Ожидала большего. Идея очень интересная, но в рассказе не раскрыта до конца!"
         ],
@@ -1162,8 +1162,8 @@
     {
         "title": "Абсолютно невозможно",
         "author": "Силверберг Роберт",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/Абсолютно_невозможно.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/Абсолютно_невозможно.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -1172,8 +1172,8 @@
     {
         "title": "Абсолютное Оружие",
         "author": "Ершов Юрий",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/Абсолютное_Оружие.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/Абсолютное_Оружие.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -1182,8 +1182,8 @@
     {
         "title": "Абсолютное оружие Горгон",
         "author": "Щербаков Владимир",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/Абсолютное_оружие_Горгон.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/Абсолютное_оружие_Горгон.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -1192,8 +1192,8 @@
     {
         "title": "Абсолютное счастье",
         "author": "Якименко Константин",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/Абсолютное_счастье.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/Абсолютное_счастье.txt",
         "comments": [
             "Спасибо автору! Рассказ не для всех, но для тех кто пытается понять суть жизни. Вцелом интересно и необычно!",
             "Не пожалей 15 минут -прочти."
@@ -1205,8 +1205,8 @@
     {
         "title": "Абсолютное время",
         "author": "Бялецкий Януш",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/Абсолютное_время.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/Абсолютное_время.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -1215,8 +1215,8 @@
     {
         "title": "Абсолютный хрум",
         "author": "Тарабанов Дмитрий",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/Абсолютный_хрум.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/Абсолютный_хрум.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"
@@ -1225,8 +1225,8 @@
     {
         "title": "Абстиненция",
         "author": "Нестеренко Юрий",
-        "img_src": "dest_folder/images/nopic.gif",
-        "book_path": "dest_folder/books/Абстиненция.txt",
+        "img_src": "media/images/nopic.gif",
+        "book_path": "media/books/Абстиненция.txt",
         "comments": [],
         "genres": [
             "Научная фантастика"

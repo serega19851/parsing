@@ -24,14 +24,14 @@ pip install -r requirements.txt
 >python parse_tululu_category.py --start_page (начальный номер страницы) --end_page (последний номер страницы) 
 ```
 Запуская скрипт parse_tululu_category.py можно прописывать необязательные аргументы :
-- --dest_folder — путь к каталогу с результатами парсинга: картинкам, книгам, JSON.
+- --media — путь к каталогу с результатами парсинга: картинкам, книгам, JSON.
 - --skip_imgs — не скачивать картинки
 - --skip_txt — не скачивать книги
 - --json_path — указать свой путь к *.json файлу с результатами
 
 Пример:
 ```bash
->python parse_tululu_category.py --start_page 600 --end_page 700 --dest_folder --skip_txt
+>python parse_tululu_category.py --start_page 600 --end_page 700 --media --skip_txt
 ```
 
 ## Создаём и запускаем сайт

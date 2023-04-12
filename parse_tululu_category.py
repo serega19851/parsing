@@ -41,9 +41,9 @@ def gets_args():
         help="does not download"
     )
     parser.add_argument(
-        "-df", "--dest_folder",
+        "-md", "--media",
         help="in enter the path of the main directory",
-        default='dest_folder'
+        default='media'
     )
 
     parser.add_argument(
@@ -100,13 +100,13 @@ def main():
                     if not args.skip_txt:
                         book_path = download_txt(
                             download_link_response.content, book_page['title'],
-                            args.dest_folder
+                            args.media
                         )
 
                     if not args.skip_imgs:
                         img_path = download_images(
                             book_page['cover_book'],
-                            args.dest_folder
+                            args.media
                         )
 
                     page_book = {

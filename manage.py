@@ -22,15 +22,15 @@ def gets_title(soup):
 def download_txt(
         response_content,
         filename,
-        dest_folder='dest_folder',
+        media='media',
         folder='books'
 ):
     Path(
-        os.path.join(dest_folder, folder)
+        os.path.join(media, folder)
     ).mkdir(parents=True, exist_ok=True)
 
     path = os.path.join(
-        dest_folder,
+        media,
         folder,
         f'{sanitize_filename(filename)}.txt'
     ).replace(' ', '_')
@@ -47,18 +47,18 @@ def get_url_cover_book(soup, book_url):
 
 def download_images(
         url_cover,
-        dest_folder='dest_folder',
+        media='media',
         folder='images'
 ):
     Path(
-        os.path.join(dest_folder, folder)
+        os.path.join(media, folder)
     ).mkdir(parents=True, exist_ok=True)
 
     filename = url_cover.split('/')[-1]
     response = requests.get(url_cover)
     response.raise_for_status()
     path = os.path.join(
-        dest_folder,
+        media,
         folder,
         sanitize_filename(filename)
     )
