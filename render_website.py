@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 from pathlib import Path
@@ -6,9 +7,21 @@ from livereload import Server
 from more_itertools import chunked
 
 
-def on_reload():
+def gets_args():
+    parser = argparse.ArgumentParser('accepts optional args')
+    parser.add_argument(
+        "-jp", "--json_path",
+        help="in enter your path to the file",
+        default=Path.cwd()
+    )
+    args = parser.parse_args()
+    return args
+
+
+def on_reload(json_path):
     Path('pages').mkdir(parents=True, exist_ok=True)
-    with open("book_page.json", "r") as file:
+    path_json = os.path.join(json_path, "book_page.json")
+    with open(path_json, "r") as file:
         books = file.read()
     book_pages = list(chunked(json.loads(books), 10))
     pages_number = len(book_pages)
@@ -32,7 +45,7 @@ def on_reload():
 
 
 def main():
-    on_reload()
+    on_reload(gets_args().json_path)
     server = Server()
     server.watch(os.path.join('templates', 'template.html'), on_reload)
     server.serve(root='.')
