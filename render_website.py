@@ -22,8 +22,8 @@ def on_reload(json_path):
     Path('pages').mkdir(parents=True, exist_ok=True)
     path_json = os.path.join(json_path, "book_page.json")
     with open(path_json, "r") as file:
-        books = file.read()
-    book_pages = list(chunked(json.loads(books), 10))
+        books = json.load(file)
+    book_pages = list(chunked(books, 10))
     pages_number = len(book_pages)
     for num, page in enumerate(book_pages, 1):
         books_part = chunked(page, 2)
