@@ -23,7 +23,7 @@ def on_reload(json_path, books_number_per_page):
     path_json = os.path.join(json_path, "book_page.json")
     with open(path_json, "r") as file:
         book_descriptions = list(chunked(json.load(file), books_number_per_page))
-    pages_number = len(book_descriptions)
+    number_pages = len(book_descriptions)
     for num, page_with_books in enumerate(book_descriptions, 1):
         books_part = chunked(page_with_books, 2)
         env = Environment(
@@ -33,7 +33,7 @@ def on_reload(json_path, books_number_per_page):
         template = env.get_template(os.path.join('templates', "template.html"))
         rendered_page = template.render(
             books_part=books_part,
-            pages_number=pages_number,
+            number_pages=number_pages,
             current_page=num,
         )
         with open(os.path.join(
