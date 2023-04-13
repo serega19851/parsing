@@ -18,11 +18,11 @@ def gets_args():
     return args
 
 
-def on_reload(json_path):
+def on_reload(json_path, books_number_per_page):
     Path('pages').mkdir(parents=True, exist_ok=True)
     path_json = os.path.join(json_path, "book_page.json")
     with open(path_json, "r") as file:
-        book_descriptions = list(chunked(json.load(file), 10))
+        book_descriptions = list(chunked(json.load(file), books_number_per_page))
     pages_number = len(book_descriptions)
     for num, page_with_books in enumerate(book_descriptions, 1):
         books_part = chunked(page_with_books, 2)
@@ -43,7 +43,8 @@ def on_reload(json_path):
 
 
 def main():
-    on_reload(gets_args().json_path)
+    books_number_per_page = 10
+    on_reload(gets_args().json_path, books_number_per_page)
     server = Server()
     server.watch(os.path.join('templates', 'template.html'), on_reload)
     server.serve(root='.')
