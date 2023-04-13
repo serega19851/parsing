@@ -19,13 +19,14 @@ def gets_args():
 
 
 def on_reload(json_path, books_number_per_page):
+    number_of_columns = 2
     Path('pages').mkdir(parents=True, exist_ok=True)
     path_json = os.path.join(json_path, "book_page.json")
     with open(path_json, "r") as file:
         book_descriptions = list(chunked(json.load(file), books_number_per_page))
     number_pages = len(book_descriptions)
     for num, page_with_books in enumerate(book_descriptions, 1):
-        books_part = chunked(page_with_books, 2)
+        books_part = chunked(page_with_books, number_of_columns)
         env = Environment(
             loader=FileSystemLoader('.'),
             autoescape=select_autoescape(['html'])
