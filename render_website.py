@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+from functools import partial
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from livereload import Server
@@ -51,9 +52,17 @@ def on_reload(json_path, num_described_books_per_page):
 
 def main():
     num_described_books_per_page = 10
-    on_reload(gets_args().json_path, num_described_books_per_page)
+    json_path = gets_args().json_path
+    on_reload(json_path, num_described_books_per_page)
     server = Server()
-    server.watch(os.path.join('templates', 'template.html'), on_reload)
+    server.watch(
+        os.path.join('templates', 'template.html'),
+        partial(
+            on_reload,
+            json_path,
+            num_described_books_per_page
+        )
+    )
     server.serve(root='.')
 
 
