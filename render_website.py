@@ -12,7 +12,7 @@ def gets_args():
     parser.add_argument(
         '-jp', '--json_path',
         help='in enter your path to the file',
-        default=Path.cwd()
+        default=os.path.join(Path.cwd(), 'book_page.json')
     )
     args = parser.parse_args()
     return args
@@ -21,8 +21,7 @@ def gets_args():
 def on_reload(json_path, books_number_per_page):
     number_of_columns = 2
     Path('pages').mkdir(parents=True, exist_ok=True)
-    path_json = os.path.join(json_path, 'book_page.json')
-    with open(path_json, 'r') as file:
+    with open(json_path, 'r') as file:
         book_descriptions = list(chunked(json.load(file), books_number_per_page))
     number_pages = len(book_descriptions)
     for num, page_with_books in enumerate(book_descriptions, 1):
