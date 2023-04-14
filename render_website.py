@@ -40,9 +40,12 @@ def on_reload(json_path, num_described_books_per_page):
             total_pages_num=total_pages_num,
             current_page_number=num,
         )
-        with open(os.path.join(
-                'pages', f'index{num}.html'
-        ), 'w', encoding='utf8') as file:
+        with open(
+                os.path.join(
+                    'pages',
+                    f'index{num}.html'
+                ), 'w', encoding='utf8'
+        ) as file:
             file.write(rendered_page)
 
 
