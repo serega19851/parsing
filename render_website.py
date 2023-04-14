@@ -25,18 +25,20 @@ def on_reload(json_path, num_described_books_per_page):
         book_descriptions = list(
             chunked(json.load(file), num_described_books_per_page)
         )
-    number_pages = len(book_descriptions)
-    for num, page_with_books in enumerate(book_descriptions, 1):
-        books_part = chunked(page_with_books, number_of_columns)
+    total_pages_num = len(book_descriptions)
+    for num, books_description_page in enumerate(book_descriptions, 1):
+        description_books_page = chunked(
+            books_description_page, number_of_columns
+        )
         env = Environment(
             loader=FileSystemLoader('.'),
             autoescape=select_autoescape(['html'])
         )
         template = env.get_template(os.path.join('templates', 'template.html'))
         rendered_page = template.render(
-            books_part=books_part,
-            number_pages=number_pages,
-            current_page=num,
+            description_books_page=description_books_page,
+            total_pages_num=total_pages_num,
+            current_page_number=num,
         )
         with open(os.path.join(
                 'pages', f'index{num}.html'
